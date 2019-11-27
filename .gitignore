@@ -3,3 +3,8 @@ dist/
 site/data/webpack.json
 /npm-debug.log
 yarn-error.log
+.vscode/
+### Hugo ###
+# Generated files by hugo
+public/
+resources/_gen/
