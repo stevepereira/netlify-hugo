@@ -1,7 +1,7 @@
 ---
-title: Great coffee with a conscience
+title: Thoughts for the Value Era
 subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+image: /img/value-stream-venn.png
 blurb:
   heading: Why Visible?
   text: >-
