@@ -1,0 +1,77 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}mark{background-color:transparent;color:inherit}input::-moz-focus-inner{border:0;padding:0}input[type="text"],input[type="email"],select,textarea{-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;appearance:none}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	line-height: 1.0;
+	word-wrap: break-word;
+	overflow-x: hidden;
+}
+
+body::before {
+	content: '';
+	display: block;
+	background-attachment: scroll;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 0;
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	background-image: linear-gradient(360deg, #0A3249 0%, #047DC2 100%);
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#nav {
+	width: calc(100% + 0rem);
+	margin-left: -0rem;
+}
+
+#nav li {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: calc(100% - 0rem);
+	margin: 0rem;
+}
+
+#nav li a {
+	display: flex;
+	width: auto;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	vertical-align: middle;
+	padding: 0 0.75rem;
+	text-transform: uppercase;
+	font-size: 1.375em;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.075rem;
+	padding-left: calc(0.075rem + 0.75rem);
+	font-weight: 700;
+    display: inline-block;
+	vertical-align: middle;
+	max-width: calc(100% - 1.75rem);
+	margin: 0.875rem;
+	-moz-flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+#nav .button {
+	background-color: transparent;
+	color: rgba(0,255,255,1);
+}
